@@ -24,14 +24,20 @@ MechaCar is having some trouble with production and main idea is to provide some
 - In overall statistics the variance shown is 62.29 which stays with in the specification required. But when the analysis is done on the individual Lot, third Lot shows variance well above the threshold which is 170.286
 
 ### T-Test 
+#### 1. T Test for all the Lots
+
+<img width="509" alt="LOT" src="https://user-images.githubusercontent.com/110261837/206817712-8d58f75b-01a5-43c8-8298-09c8d731ba1e.png">
+
+- As the p-value stands at 0.06028 which is well above 95% of confidence level, we can assume the normality.
+#### 2. T Test for Lot 1
 <img width="531" alt="Lot1" src="https://user-images.githubusercontent.com/110261837/206809782-ed11c2d0-37fd-493f-a2b9-808f77dddc6a.png">
 
 - The statistical data for Lot 1 is quite similar to the mean population and its p-value is standing at 1, so null hypothesis cannot be rejected.
-
+#### 3. T Test for Lot 2
 <img width="544" alt="Lot2" src="https://user-images.githubusercontent.com/110261837/206810469-2419e8f6-97e1-43ff-92bc-7a12ce4cefbb.png">
 
 - The statistical data for Lot 2 is quite similar to the mean population and its p-value shown is 0.6072 which is not eligible to reject the null hypothesis.
-
+#### 4. T Test for Lot 3
 <img width="469" alt="Lot3" src="https://user-images.githubusercontent.com/110261837/206810645-cc0e6631-5b4c-4019-815d-6c2e657b6c0c.png">
 
 - The mean population for Lot 3 is slightly different from the mean population and the p-value is showing very low at 0.04168. This p-value is good enough to reject the null hypothesis. 
@@ -54,6 +60,6 @@ Two sample t-test is the correct statistical test
 
 ### What data is needed
 
-We need to have competitor vehicles data as well as the carrying compartment space data from all the building prototypes.
+We need to have competitor vehicles technical data such as its fuel efficiency, and safety ratings as well as the carrying compartment space data from all the building prototypes.
 
 
